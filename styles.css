@@ -1,13 +1,20 @@
-.body::-webkit-scrollbar {
+body::-webkit-scrollbar {
   display: none;
 }
 
-.body {
+body {
   -ms-overflow-style: none;
+  padding-top: 15px;
 }
 
 .entire-header{
     display: flex;
+    position: fixed;
+    transition: transform 0.5s;
+}
+
+.entire-header--hidden {
+  transform: translateY(-100px);
 }
 
 .main-header {
@@ -31,6 +38,7 @@ h1,h2,h3,h4,p{
 
 .content{
     margin-left: 5vw;
+    padding-top: 50px;
 }
 
 .content-left{
