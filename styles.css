@@ -1,11 +1,21 @@
+
+
+/*All Pages Functionality*/
 body::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 body {
-  -ms-overflow-style: none;
-  padding-top: 15px;
+    -ms-overflow-style: none;
+    padding-top: 15px;
+    background-color: #ffffff;
 }
+
+.green-text{
+    color: #2ec4b6;
+}
+
+/* Header Elements */
 
 .entire-header{
     display: flex;
@@ -17,7 +27,7 @@ body {
   transform: translateY(-100px);
 }
 
-.main-header {
+.main-header-bar {
     color: #ffffff;
     font-family: "Poppins", sans-serif;
     background-color: #ff9f1c;
@@ -28,9 +38,37 @@ body {
     height: 9vh;
 }
 
-.contact-us-button{
-    text-decoration: none;
+.header-bar {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    background-color: #ff9f1c;
+    border: #f9d7aa 2px solid;
+    border-radius: 5px;
+    width: 10vw;
+    margin-left: 1vw;
+    height: 9vh;
+    display: flex;
 }
+
+.button{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: transform 0.2s;
+    display: inline-block;
+    margin: 1vw;
+}
+
+.button:hover{
+    transform: scale(1.1)
+}
+
+.logo{
+    margin-right: 10vw;
+}
+
+/*Contact Us Page*/
 
 h1,h2,h3,h4,p{
     font-family: "Poppins", sans-serif;
@@ -61,34 +99,4 @@ h1,h2,h3,h4,p{
 
 .big-text{
     max-width: 40vw;
-}
-
-.header-button {
-    color: #ffffff;
-    font-family: "Poppins", sans-serif;
-    background-color: #ff9f1c;
-    border: #f9d7aa 2px solid;
-    border-radius: 5px;
-    width: 10vw;
-    margin-left: 1vw;
-    height: 9vh;
-    display: flex;
-}
-
-.button-text{
-    margin-left: 1vw;
-    margin-bottom: 0.5vw;
-    font-size: 15px;
-}
-
-.button-arrow{
-
-}
-
-body{
-    background-color: #ffffff;
-}
-
-.green-text{
-    color: #2ec4b6;
 }
