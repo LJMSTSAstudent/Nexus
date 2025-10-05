@@ -66,62 +66,54 @@ body {
     margin-right: 10vw;
 }
 
-form{
+form {
+    display: flex;
+    align-items: center;
     position: relative;
-    transform: translate(-50%,-50%);
-    transition: all 1s;
     width: 50px;
-    height: 50px;
+    height: 42.5px;
     background: white;
-    box-sizing: border-box;
     border-radius: 25px;
-    border: 4px solid white;
+    border: 2px solid white;
     padding: 5px;
+    transition: width 0.5s ease;
+    overflow: hidden;
+    margin-left: auto; /* pushes it to the right side */
 }
 
-input{
-    top: 0;
-    left: 0;
-    width: 100%;;
-    height: 42.5px;
-    line-height: 30px;
-    outline: 0;
-    border: 0;
+form input {
+    flex: 1;
     display: none;
+    border: none;
+    outline: none;
     font-size: 1em;
+    padding: 5px 10px;
     border-radius: 20px;
-    padding: 0 20px;
 }
 
-.fa{
-    box-sizing: border-box;
-    padding: 10px;
-    width: 42.5px;
-    height: 42.5px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    border-radius: 50%;
-    color: #ff9f1c;
-    text-align: center;
-    font-size: 1.2em;
-    transition: all 1s;
-}
-
-form:hover{
+form:hover {
     width: 200px;
     cursor: pointer;
 }
 
-form:hover input{
+form:hover input {
     display: block;
 }
 
-form:hover .fa{
+form i {
+    color: #ff9f1c;
+    font-size: 1.2em;
+    background: transparent;
+    border-radius: 50%;
+    padding: 8px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+form:hover i {
     background: #ff9f1c;
     color: white;
 }
-
 /*Contact Us Page*/
 
 h1,h2,h3,h4,p{
