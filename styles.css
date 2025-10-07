@@ -230,7 +230,6 @@ body {
     background: white;
     border-radius: 25px;
     border: 2px solid #f9d7aa;
-    padding: 0 5px;
     transition: width 0.5s ease;
     overflow: hidden;
 }
@@ -246,12 +245,9 @@ body {
 
 .main-header-bar form:hover {
     width: 275px;
-    cursor: pointer;
 }
 
 .main-header-bar form:hover input {
-    margin-left: 50px;
-    display: block;
 }
 
 .main-header-bar form i {
