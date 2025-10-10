@@ -32,7 +32,7 @@ body {
     gap: 1rem;
     color: #ffffff;
     font-family: "Poppins", sans-serif;
-    background-color: #ff9f1c;
+    background-color: #4c91b8;
     border: #f9d7aa 2px solid;
     border-radius: 5px;
     width: 80vw;
@@ -44,7 +44,7 @@ body {
 .header-bar {
     color: #ffffff;
     font-family: "Poppins", sans-serif;
-    background-color: #ff9f1c;
+    background-color: #4c91b8;
     border: #f9d7aa 2px solid;
     border-radius: 5px;
     width: 10vw;
@@ -126,14 +126,14 @@ body {
     height: 50px;
     border-radius: 50%;
     background: transparent;
-    color: #ff9f1c;
+    color: #4c91b8;
     font-size: 1.2em;
     cursor: pointer;
     transition: background 0.3s, color 0.3s;
 }
 
 .main-header-bar form:hover i {
-    color: #ff9f1c;
+    color: #4c91b8;
 }
 
 /*Contact Us Page*/
