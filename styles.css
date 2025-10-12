@@ -6,7 +6,9 @@ body::-webkit-scrollbar {
 body {
     -ms-overflow-style: none;
     padding-top: 15px;
-    background-color: #ffffff;
+    background-color: #000000;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
 
 .green-text{
@@ -30,7 +32,7 @@ body {
     align-items: center;
     justify-content: flex-start;
     gap: 1rem;
-    color: #ffffff;
+    color: #000000;
     font-family: "Poppins", sans-serif;
     background-color: #004369;
     border: #73bbe3 2px solid;
@@ -42,7 +44,7 @@ body {
 }
 
 .header-bar {
-    color: #ffffff;
+    color: #000000;
     font-family: "Poppins", sans-serif;
     background-color: #004369;
     border: #73bbe3 2px solid;
@@ -64,7 +66,7 @@ body {
     margin: 1vw;
 }
 
-.contact-us-button{
+.contact-button{
     font-size: 15px;
     text-decoration: none;
     color: white;
@@ -72,7 +74,7 @@ body {
     transition: transform 0.2s;
     display: inline-block;
     padding-left: 1vw;
-    padding-top: 0vw;
+    padding-top: 0.5vw;
 }
 
 .button:hover{
@@ -114,7 +116,7 @@ body {
 }
 
 .main-header-bar form:hover input {
-    margin-left: 50px;
+    margin-left: 10px;
     display: block;
 }
 
@@ -122,6 +124,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-left: 0vw;
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -133,6 +136,7 @@ body {
 }
 
 .main-header-bar form:hover i {
+    left: 5000px;
     color: #004369;
 }
 
