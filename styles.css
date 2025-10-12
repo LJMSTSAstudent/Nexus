@@ -144,6 +144,7 @@ body {
 
 h1,h2,h3,h4,p{
     font-family: "Poppins", sans-serif;
+    color: white;
 }
 
 .content{
@@ -162,6 +163,7 @@ h1,h2,h3,h4,p{
 
 .content h2{
     font-size: 4rem;
+    color: white;
 }
 
 .content-right{
