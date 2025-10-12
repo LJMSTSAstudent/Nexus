@@ -150,6 +150,7 @@ h1,h2,h3,h4,p{
 .content{
     margin-left: 5vw;
     padding-top: 50px;
+    color: white;
 }
 
 .content-left{
