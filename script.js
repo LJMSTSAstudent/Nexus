@@ -1,15 +1,24 @@
-// Enable hidden nav bar
-{
-  const header = document.querySelector(".entire-header");
-  let lastScrollY = window.scrollY;
+const swiperBusinesses = new Swiper('.businesses__swiper', {
+  loop: true,
+  slidesPerView: 'auto',
+  centeredSlides: 'auto',
+  spaceBetween: 16,
+  grabCursor: true,
+  speed: 600,
+  effect: 'coverflow',
+  coverflowEffect:{
+    rotate: -90,
+    depth: 600,
+    modifier: .5,
+    slideShadows: false,
+  },
+  
+  pagination: {
+    el: '.swiper-pagination',
+  },
 
-  window.addEventListener("scroll", () => {
-    if (lastScrollY < window.scrollY) {
-      header.classList.add("entire-header--hidden");
-    } else {
-      header.classList.remove("entire-header--hidden");
-    }
-
-    lastScrollY = window.scrollY;
-  });
-}
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
