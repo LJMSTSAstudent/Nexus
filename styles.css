@@ -222,6 +222,7 @@ h1,h2,h3,h4,p{
 
 .businesses__title{
     font-size: 4vw;
+    text-align: center;
     margin-bottom: 3rem;
 }
 
@@ -252,7 +253,6 @@ h1,h2,h3,h4,p{
     align-items: center;
     column-gap: 1rem;
     margin-bottom: .75rem;
-    color: #000000;
 }   
 
 .businesses__stars{
