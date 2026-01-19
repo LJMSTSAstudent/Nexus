@@ -1,8 +1,4 @@
 const swiperBusinesses = new Swiper('.businesses__swiper', {
-   loop: true,
-   slidesPerView: 'auto',
-   centeredSlides: 'auto',
-  
   pagination: {
     el: '.swiper-pagination',
   },
