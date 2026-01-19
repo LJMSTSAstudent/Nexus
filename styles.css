@@ -205,3 +205,62 @@ h1,h2,h3,h4,p{
 .more-btn:hover{
     transform: translateY(clamp(-4px, -0.5vh, -5px));
 }
+
+/*Businesses Cards*/
+.businesses {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.businesses__swiper{
+    padding-bottom: 7rem;
+}
+
+.businesses__title{
+    font-size: 4vw;
+    margin-bottom: 3rem;
+}
+
+.businesses__card{
+    width: 280px;
+    background-color: #ffffff;
+    box-shadow: 0 8px 16px hsla(265, 75%, 5%, 0.1);
+    padding: 2rem 1.5rem 3rem;
+    border-radius: 1.5rem;
+    text-align: center;
+}
+
+.businesses__img{
+    width: 100px;
+    border-radius: 4rem;
+    border: 4px solid #2ec4b6;
+    margin: 0 auto 0.5rem;
+}
+
+.businesses__name{
+    margin-bottom: 2rem;
+    color: #000000;
+}
+
+.businesses__rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+    margin-bottom: .75rem;
+    color: #000000;
+}   
+
+.businesses__stars{
+    display: flex;
+    align-items: center;
+    column-gap: 0.25rem;
+}
+
+.businesses__stars i{
+    color: #2ec4b6
+}
