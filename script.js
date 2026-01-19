@@ -1,5 +1,4 @@
 const swiperBusinesses = new Swiper('.businesses__swiper', {
-  direction: 'vertical',
   loop: true,
 
   // If we need pagination
