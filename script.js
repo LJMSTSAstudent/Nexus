@@ -1,18 +1,18 @@
 const swiperBusinesses = new Swiper('.businesses__swiper', {
   loop: true,
+  slidesPerView: 'auto',
+  centeredSlides: 'auto',
+  spaceBetween: 16,
+  grabCursor: true,
+  speed: 600,
 
-  // If we need pagination
   pagination: {
     el: '.swiper-pagination',
   },
 
-  // Navigation arrows
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
 });
+
