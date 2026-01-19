@@ -259,8 +259,9 @@ h1,h2,h3,h4,p{
     display: flex;
     align-items: center;
     column-gap: 0.25rem;
+    color: #2ec4b6;
 }
 
 .businesses__stars i{
-    color: #2ec4b6
+    color: #2ec4b6;
 }
