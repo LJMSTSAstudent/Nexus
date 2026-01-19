@@ -1,7 +1,7 @@
 const swiperBusinesses = new Swiper('.businesses__swiper', {
   loop: true,
   slidesPerView: 'auto',
-  centeredSlides: 'auto',
+  centeredSlides: true,
   spaceBetween: 16,
   grabCursor: true,
   speed: 600,
