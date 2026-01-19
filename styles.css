@@ -5,12 +5,16 @@ body::-webkit-scrollbar {
 
 html {
     scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     -ms-overflow-style: none;
     padding-top: 0px;
     background-color: #000000;
+    margin: 0;
+    padding: 0;
 }
 
 .green-text{
