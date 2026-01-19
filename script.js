@@ -5,6 +5,13 @@ const swiperBusinesses = new Swiper('.businesses__swiper', {
   spaceBetween: 16,
   grabCursor: true,
   speed: 600,
+  effect: 'coverflow',
+  coverflowEffect:{
+    rotate: -90,
+    depth: 600,
+    modifier: 0.5,
+    slideShadows: false,
+  },
 
   pagination: {
     el: '.swiper-pagination',
