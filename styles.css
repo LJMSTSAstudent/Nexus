@@ -326,6 +326,6 @@
         background-color: var(--container-color);
         box-shadow: 0 8px 16px hsla(265, 75%, 4%, .1);
         padding: 2rem 1.5rem 3rem;
-        border-radius: 3rem;
+        border-radius: 10rem;
         text-align: center;
         }
