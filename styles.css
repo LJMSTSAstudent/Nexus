@@ -309,3 +309,14 @@
             font-size: var(--normal-font-size);
         }
         }
+
+/*Events Page*/
+        .events {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        color: var(--title-color);
+        }
