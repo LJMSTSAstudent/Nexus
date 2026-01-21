@@ -196,6 +196,13 @@
         margin-bottom: 3rem;
         }
 
+        .overlay {
+          border-width: 10px;
+          border-style: solid;
+          border-image-source: linear-gradient(hsl(120°, 20%, 83%), hsl(120°, 20%, 83%));
+          border-image-slice: fill 1;
+        }
+
         .businesses__card {
         width: 280px;
         background-image: url('Images/Pizza Restaurant Image.svg');
