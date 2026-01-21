@@ -198,7 +198,9 @@
 
         .businesses__card {
         width: 280px;
-        background-color: var(--container-color);
+        background-image: url('Images/Pizza Restaurant Image.svg');
+        background-size: auto;
+        overflow: hidden;
         box-shadow: 0 8px 16px hsla(265, 75%, 4%, .1);
         padding: 2rem 1.5rem 3rem;
         border-radius: 1.5rem;
