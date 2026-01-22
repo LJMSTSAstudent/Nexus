@@ -196,11 +196,12 @@
         margin-bottom: 3rem;
         }
 
-        .overlay {
-          border-width: 10px;
-          border-style: solid;
-          border-image-source: linear-gradient(hsl(0 100% 100% / .3), hsl(0 100% 100% / .3));
-          border-image-slice: fill 1;
+        .businesses__card ::before {
+          content: "";
+          position: absolute;
+          inset: 0;
+          background-image: hsl(0 0 0 / .3);
+          z-index: 1;
         }
 
         .businesses__card {
