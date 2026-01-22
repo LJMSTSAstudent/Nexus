@@ -218,6 +218,7 @@
         .businesses__name {
         font-size: var(--h3-font-size);
         margin-bottom: 2rem;
+        color: var(--white-color)
         }
 
         .businesses__rating {
@@ -241,6 +242,7 @@
 
         .businesses__number {
         font-size: var(--h3-font-size);
+        color: var(--white-color);
         }
 
         /* Swiper class */
