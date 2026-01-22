@@ -205,7 +205,7 @@
 
         .businesses__card {
         width: 280px;
-        background-image: url('Images/Pizza Restaurant Image.svg');
+        background-image: url('Pizza-Image.svg');
         background-size: cover;
         background-repeat: no-repeat;
         overflow: hidden;
