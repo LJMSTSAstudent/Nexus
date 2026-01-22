@@ -196,25 +196,26 @@
         margin-bottom: 3rem;
         }
 
-        .businesses__card ::before {
-          content: "";
-          position: absolute;
-          inset: 0;
-          background-image: hsl(0 0 0 / .3);
-          z-index: 1;
-        }
+.businesses__card {
+  position: relative;
+  width: 280px;
+  background-image: url('Pizza-Image.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  box-shadow: 0 8px 16px hsla(265, 75%, 4%, .1);
+  padding: 2rem 1.5rem 3rem;
+  border-radius: 1.5rem;
+  text-align: center;
+}
 
-        .businesses__card {
-        width: 280px;
-        background-image: url('Pizza-Image.svg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        overflow: hidden;
-        box-shadow: 0 8px 16px hsla(265, 75%, 4%, .1);
-        padding: 2rem 1.5rem 3rem;
-        border-radius: 1.5rem;
-        text-align: center;
-        }
+.businesses__card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: hsl(0 0% 0% / .3);
+  z-index: 1;
+}}
 
         .businesses__img {
         width: 100px;
