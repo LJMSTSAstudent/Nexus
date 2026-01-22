@@ -199,7 +199,7 @@
         .overlay {
           border-width: 10px;
           border-style: solid;
-          border-image-source: linear-gradient(hsl(0, 100%, 100%, 70%), hsl(0, 100%, 100%, 70%));
+          border-image-source: linear-gradient(hsl(0 100% 100% / .3), hsl(0 100% 100% / .3));
           border-image-slice: fill 1;
         }
 
