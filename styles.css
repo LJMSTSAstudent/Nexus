@@ -199,7 +199,7 @@
 .businesses__card {
   position: relative;
   width: 280px;
-  background-image: url('Pizza-Image.svg');
+  background-image: url('Untitled design.svg');
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -208,14 +208,6 @@
   border-radius: 1.5rem;
   text-align: center;
 }
-
-.businesses__card::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: hsl(0 0% 0% / .3);
-  z-index: 1;
-}}
 
         .businesses__img {
         width: 100px;
