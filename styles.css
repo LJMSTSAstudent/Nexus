@@ -199,10 +199,6 @@
 .businesses__card {
   position: relative;
   width: 280px;
-  background-image: url('Untitled design.svg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  overflow: hidden;
   box-shadow: 0 8px 16px hsla(265, 75%, 4%, .1);
   padding: 2rem 1.5rem 3rem;
   border-radius: 1.5rem;
@@ -218,7 +214,7 @@
         .businesses__name {
         font-size: var(--h3-font-size);
         margin-bottom: 2rem;
-        color: var(--white-color)
+        color: var(--title-color)
         }
 
         .businesses__rating {
@@ -242,7 +238,7 @@
 
         .businesses__number {
         font-size: var(--h3-font-size);
-        color: var(--white-color);
+        color: var(--text-color);
         }
 
         /* Swiper class */
