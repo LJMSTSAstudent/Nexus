@@ -216,7 +216,7 @@
         .businesses__name {
         font-size: var(--h3-font-size);
         margin-bottom: 2rem;
-        color: var(--title-color)
+        color: var(--title-color);
         }
 
         .businesses__rating {
