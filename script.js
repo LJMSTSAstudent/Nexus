@@ -1,4 +1,5 @@
-const swiperTestimonial = new Swiper('.businesses__swiper', {
+// Code for Home Page businesses swiper
+const swiperBusinesses = new Swiper('.businesses__swiper', {
    loop: true,
    slidesPerView: 'auto',
    centeredSlides: 'auto',
@@ -28,3 +29,28 @@ const swiperTestimonial = new Swiper('.businesses__swiper', {
       disableOnInteraction: false,
    },
 })
+
+//Code for Home Pade events image accordian
+
+const options = document.querySelectorAll(".option");
+let currentIndex = 0;
+
+// Manual click activation
+options.forEach((option, index) => {
+    option.addEventListener("mouseover", () => {
+        setActive(index);
+    });
+});
+
+ // Function to activate selected slide
+function setActive(index) {
+    options.forEach(o => o.classList.remove("active"));
+     options[index].classList.add("active");
+    currentIndex = index;
+}
+
+// Auto slide every 3 seconds
+setInterval(() => {
+    currentIndex = (currentIndex + 1) % options.length;
+    setActive(currentIndex);
+}, 15000);
