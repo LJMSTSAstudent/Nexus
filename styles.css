@@ -209,6 +209,7 @@
             .businesses__img {
             width: 100px;
             border-radius: 4rem;
+            border: 0px;
             margin: 0 auto .5rem;
             }
 
