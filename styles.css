@@ -411,14 +411,23 @@
 }
 
 .first-name-section{
-    padding-right: 28vw;
+    padding-right: 10vw;
 }
 
 .name-section{
-    padding-top: 7vh;    
+    padding-top: 5vh;    
     font-family: var(--second-font);
     color: var(--black-color);
     font-size: 1.25rem;  
     display: flex;
     flex-direction: row;
+}
+
+.additional-info-section{
+    padding-top: 3vh;    
+    font-family: var(--second-font);
+    color: var(--black-color);
+    font-size: 1.25rem;  
+    display: flex;
+    flex-direction: column;   
 }
