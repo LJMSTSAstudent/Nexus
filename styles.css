@@ -176,6 +176,13 @@
                 transform: translateY(clamp(-4px, -0.5vh, -5px));
             }
 
+            /*History Section*/
+            .history{
+                height: 100vh;
+                background-color: var(--first-color);
+                padding-left: 5vw;
+                padding-top: 5vw;
+            }
 
             /*Local Businesses Cards*/
             .businesses {
@@ -334,7 +341,7 @@
             display: flex;
             gap: 10px;
             width: 90%;
-            height: 300px;
+            height: 25vw;
         }
 
         .option {
@@ -398,3 +405,20 @@
             font-size: 0.8rem;
             opacity: 0.8;
         }
+.contact{
+    height: 100vh;
+    padding-left: 3vw;
+}
+
+.first-name-section{
+    padding-right: 28vw;
+}
+
+.name-section{
+    padding-top: 7vh;    
+    font-family: var(--second-font);
+    color: var(--black-color);
+    font-size: 1.25rem;  
+    display: flex;
+    flex-direction: row;
+}
