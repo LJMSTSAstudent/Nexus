@@ -446,3 +446,7 @@
     border: 0px solid var(--black-color);
     border-radius: 5px;
 }
+
+.image{
+    width: 40vw;
+}
