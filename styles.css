@@ -426,7 +426,7 @@
 }
 
 .additional-info-section{
-    padding-top: 3vh;    
+    padding-top: 4vh;    
     font-family: var(--second-font);
     color: var(--black-color);
     font-size: 1.25rem;  
@@ -436,7 +436,7 @@
 
 .contact-button{
     margin-left: 44vw;
-    margin-top: 2vh;
+    margin-top: 4vh;
     font-family: var(--second-font);
     font-size: var(--font-regular);
     background-color: var(--first-color);
@@ -445,8 +445,18 @@
     height: 6vh;
     border: 0px solid var(--black-color);
     border-radius: 5px;
+    transition: ease-in;
+}
+
+input{
+    padding-left: 0.25vw;
+    font-family: var(--body-font);
+    color: var(--black-color);
+    background-color: var(--body-color);
+    border: 2px solid var(--black-color);
+    border-radius: 3px;
 }
 
 .image{
-    width: 40vw;
+    width: 45vw;
 }
