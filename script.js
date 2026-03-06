@@ -54,3 +54,19 @@ setInterval(() => {
     currentIndex = (currentIndex + 1) % options.length;
     setActive(currentIndex);
 }, 15000);
+
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    Swal.fire({
+        title: "Message Sent!",
+        text: "Thanks for reaching out!",
+        icon: "success",
+        iconColor: "hsl(174.4, 62%, 47.5%)",
+        confirmButtonText: "OK",
+        confirmButtonColor: "hsl(174.4, 62%, 47.5%)",
+        showCloseButton: true
+    });
+
+    this.reset(); // clears all form fields
+});
