@@ -11,7 +11,7 @@
     <title>Whispering Pine</title>
 
     <link rel="stylesheet" href="swiper-bundle.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles(Nexus).css">
 </head>
 <body>
     <div class="content">
@@ -311,8 +311,8 @@
             <div class="label">
                 <div class="icon"><i class="fas fa-mountain"></i></div>
                 <div class="info">
-                    <div class="main">Cinco De Mayo Parade</div>
-                    <div class="sub">Monday, May 3, 2026</div>
+                    <div class="main">Spring Festival</div>
+                    <div class="sub">Monday, May 17, 2026</div>
                     <div class="sub">123 Clarksburg Dr</div>
                 </div>
             </div>
@@ -323,8 +323,8 @@
             <div class="label">
                 <div class="icon"><i class="fas fa-water"></i></div>
                 <div class="info">
-                    <div class="main">Kids Cooking Classes</div>
-                    <div class="sub">Friday, May 18, 2026</div>
+                    <div class="main">Mothers Day Craft Workshop</div>
+                    <div class="sub">Sunday, May 10, 2026</div>
                     <div class="sub">123 Potman Dr</div>
                 </div>
             </div>
@@ -335,37 +335,43 @@
 
     <section class="contact" id="contact">
         <div class="image">
-            <img src="hello-neighbor-man.svg" alt="Smiling Man">
+            <h1>ert</h1>
         </div>
         <div class="forms">
             <h1 style="font-size: 5vw; padding-top: 8vh; color: var(--first-color);">Hello Neighbor!</h1>
             <h2 style="padding-top: 2vh; width: 40vw;">If you have any questions or have any suggestions feel free to reach out!</h2>
-            <div class="name-section">
-                <div class="first-name-section">
-                    <label for="fname">First Name</label><br>
-                    <input style="width: 20vw; height: 4vh;"type="text" id="fname" name="fname" value=" ">
+            <form id="contactForm">
+                <div class="name-section">
+                    <div class="first-name-section">
+                        <label for="fname">First Name</label><br>
+                        <input style="width: 20vw; height: 4vh;"type="text" id="fname" name="fname">
+                    </div>
+                    
+                    <div class="last-name-section"> 
+                        <label for="lname">Last Name</label><br>
+                        <input style="width: 20vw; height: 4vh;" type="text" id="lname" name="lname">
+                    </div>
                 </div>
-                
-                <div class="last-name-section"> 
-                    <label for="lname">Last Name</label><br>
-                    <input style="width: 20vw; height: 4vh;" type="text" id="lname" name="lname" value=" ">
-                </div>
+                <div class="additional-info-section">
+                    <div class="email-section">
+                        <label for="email">Email</label><br>
+                        <input style="width: 50vw; height: 4vh; padding-top: 0px;" type="email" id="email" name="email">
+                    </div>
+                    <div style="padding-top: 4vh;" class="msg-section">
+                        <label style="padding-top: 3vh;" for="msg">Message</label><br>
+                        <input style="width: 50vw; height: 10vw;" id="msg" name="msg">
+                </div> 
+                <button type="submit" class="btn">Submit</button>
+            </form>
             </div>
-            <div class="additional-info-section">
-                <div class="email-section">
-                    <label for="email">Email</label><br>
-                    <input style="width: 50vw; height: 4vh; padding-top: 0px;" type="email" id="email" name="email" value=" ">
-                </div>
-                <div style="padding-top: 4vh;" class="msg-section">
-                    <label style="padding-top: 3vh;" for="msg">Message</label><br>
-                    <input style="width: 50vw; height: 10vw;" id="msg" name="msg" value=" ">
-                </div>
-            </div>
-            <b><input class="contact-button" type="submit" value="Submit"></b>
+
+            
+
         </div>
     </section>
 <script src="swiper-bundle.min.js"></script>
-<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="script(Nexus).js"></script>
     
 </body>
 </html>
