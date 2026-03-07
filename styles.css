@@ -411,10 +411,9 @@
     min-height: 100vh;
     display: flex;
     flex-direction: row;
-    position: relative; /* needed for absolute positioning inside */
-    align-items: flex-end; /* makes children sit at the bottom */
+    position: relative; /* needed for absolute positioning */
     padding-left: 3vw;
-    padding-bottom: 2vw; /* optional spacing from floor */
+    padding-right: 3vw;
 }
 
 .first-name-section{
@@ -458,8 +457,13 @@
     color: var(--first-color);
 }
 
-.image{
-    width: 45vw;
+.image {
+    position: absolute;
+    bottom: 0;    /* pushes it all the way down */
+    left: 0;      /* sticks it to the left */
+    width: 45vw;  /* adjust size as needed */
+    max-width: 500px;
+    height: auto;
 }
 
 input{
