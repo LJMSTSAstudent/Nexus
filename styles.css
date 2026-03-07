@@ -407,12 +407,14 @@
             font-size: 0.8rem;
             opacity: 0.8;
         }
-.contact{
-    height: 100vh;
-    padding-left: 3vw;
+.contact {
+    min-height: 100vh;
     display: flex;
-    margin-top: 0;
     flex-direction: row;
+    position: relative; /* needed for absolute positioning inside */
+    align-items: flex-end; /* makes children sit at the bottom */
+    padding-left: 3vw;
+    padding-bottom: 2vw; /* optional spacing from floor */
 }
 
 .first-name-section{
@@ -471,3 +473,4 @@ input{
 .swal2-popup {
     font-family: var(--body-font);
 }
+
