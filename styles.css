@@ -421,7 +421,7 @@
 }
 
 .forms {
-    margin-left: 43vw; /* leaves space for the man on the left */
+    margin-left: 40vw; /* leaves space for the man on the left */
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -466,7 +466,7 @@
 
 .image {
     position: absolute;
-    padding-left: 2vw;
+    padding-left: 5vw;
     bottom: 0;    /* pushes it all the way down */
     left: 0;      /* sticks it to the left */
     width: 45vw;  /* adjust size as needed */
