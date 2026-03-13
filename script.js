@@ -70,3 +70,19 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
 
     this.reset(); // clears all form fields
 });
+
+//Apple Animation
+gsap.registerPlugin(ScrollTrigger);
+
+gsap.to(".all-text", {
+    y: -600,
+    opacity: 0,
+    ease: "power2.out",
+    scrollTrigger: {
+        trigger: ".content",
+        start: "top top",
+        end: "+=800",
+        scrub: true,
+        pin: true
+    }
+});
