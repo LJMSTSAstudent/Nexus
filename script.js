@@ -97,3 +97,14 @@ gsap.to(".video-bg", {
     scrub: true
   }
 });
+
+gsap.to(".overlay", {
+    backgroundColor: "rgba(0,0,0,0.2)",
+    ease: "none",
+    scrollTrigger: {
+        trigger: ".content",
+        start: "top top",
+        end: "+=1200",
+        scrub: true
+    }
+});
