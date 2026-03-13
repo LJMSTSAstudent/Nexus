@@ -86,3 +86,14 @@ gsap.to(".all-text", {
         pin: true
     }
 });
+
+gsap.to(".video-bg", {
+  scale: 1.2,
+  ease: "none",
+  scrollTrigger: {
+    trigger: ".content",
+    start: "top top",
+    end: "+=1200",
+    scrub: true
+  }
+});
