@@ -15,15 +15,19 @@
 </head>
 <body>
     <div class="content">
-            <h1 style="padding-bottom: 0px; margin-bottom: 0px; padding-left: 2vw; color: var(--white-color); padding-top: 30vh; font-size: 5.5vw;">This is</h1>
-            <h1 style="padding-top: 0px; margin-top: 0px; padding-left: 2vw; font-size: 7vw; color: var(--first-color);">Whispering Pine</h1>
-        <div class="page-explore-section">
-            <h3 style="font-size: clamp(12px, 1.5vw, 50px); color: var(--white-color)">Learn More</h3>
-            <a href="#history"><h3 class="more-btn" style="font-size: clamp(15px, 1.75vw, 25px); color: var(--white-color);"><i class="fa-solid fa-angle-down"> </i></h3></a>
+        <div class="all-text">
+            <div class="intro-text">
+                <h1 style="padding-bottom: 0px; margin-bottom: 0px; color: var(--white-color); padding-top: 30vh; font-size: 5.5vw;">This is</h1>
+                <i><h1 style="padding-top: 0px; margin-top: 0px; font-size: 7vw; color: var(--first-color);">Whispering Pine</h1></i>
+            </div>
+            <div class="page-explore-section">
+                <h3 style="font-size: clamp(12px, 1.5vw, 50px); color: var(--white-color)">Scroll To Learn More</h3>
+                <a href="#history"><h3 class="more-btn" style="font-size: clamp(15px, 1.75vw, 25px); color: var(--white-color);"><i class="fa-solid fa-angle-down"> </i></h3></a>
+            </div>
+            <video class="video-bg" style="max-width: 100vw;" autoplay muted loop>
+                <source src="web_design_background_vid_v1.mp4" type="video/mp4">
+            </video>
         </div>
-        <video class="video-bg" style="max-width: 100vw;" autoplay muted loop>
-            <source src="web_design_background_vid_v1.mp4" type="video/mp4">
-        </video>
     </div>
     <section class="history" id="history">
         <b><h2 style=" font-size: 3rem;">History</h2></b>
@@ -316,7 +320,7 @@
 
     <section class="contact" id="contact">
         <div class="image">
-            <img src="hello-neighbor-man.svg" alt="Man smiling and waving">
+            <img src="https://plus.unsplash.com/premium_photo-1675721844807-a3760e14353b?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Man smiling and waving">
         </div>
         <div class="forms">
             <h1 style="font-size: 5vw; padding-top: 8vh; color: var(--first-color);">Hello Neighbor!</h1>
@@ -356,6 +360,8 @@
     </section>
 <script src="swiper-bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
 <script src="script.js"></script>
     
 </body>
